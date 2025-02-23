@@ -1,12 +1,16 @@
 import React from "react";
+import Navbar from "./navbar";
 import "../styles/appointments.css";
 
 const Appointments = () => {
   return (
-    <div className="appointments-container">
-      <h2>Appointments</h2>
-      <p>Book doctor consultations and manage your upcoming appointments.</p>
-    </div>
+    <>
+      <Navbar />
+      <div className="appointments-container">
+        <h2>Appointments</h2>
+        <p>Book doctor consultations and manage your upcoming appointments.</p>
+      </div>
+    </>
   );
 };
 
