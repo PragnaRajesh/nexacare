@@ -9,7 +9,8 @@ const Login = () => {
         <form>
           <input type="email" placeholder="Email" className="input-field" />
           <input type="password" placeholder="Password" className="input-field" />
-          <button className="login-btn" type="submit">Login</button>
+          <button className="login-btn" type="button" onClick={() => navigate("/dashboard")}>Login</button>
+
         </form>
         <p>Don't have an account? <a href="/signup">Sign up</a></p>
       </div>
