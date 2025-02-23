@@ -1,0 +1,15 @@
+.emergency-container {
+    padding: 20px;
+    background-color: #ffdddd;
+    text-align: center;
+  }
+  
+  .alert-btn {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
